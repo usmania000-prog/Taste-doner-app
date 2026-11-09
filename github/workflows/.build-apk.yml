@@ -40,6 +40,7 @@ jobs:
           npx cap sync android
           cd android
           chmod +x gradlew
+          chmod +x gradlew
           ./gradlew assembleDebug
 
       - name: Upload APK
